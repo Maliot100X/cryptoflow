@@ -387,7 +387,7 @@ function App() {
         </div>
       </section>
 
-      {/* G. Seamless Fusion Phase: Combined CTA & Footer */}
+      {/* G. Seamless Fusion Phase: Combined CTA & Footer - ONE Parent Container */}
       <section ref={combinedSectionRef} className="relative z-20 bg-black overflow-hidden">
         {/* Shared Background Video Structure */}
         <div className="absolute inset-0 z-0">
@@ -434,7 +434,7 @@ function App() {
           </div>
         </div>
 
-        {/* Footer Block Zone */}
+        {/* Footer Block Zone - Directly follows CTA inside master wrapper */}
         <footer className="relative z-20 py-24">
           <div className="max-w-7xl mx-auto px-6">
             {/* Top Layout */}
