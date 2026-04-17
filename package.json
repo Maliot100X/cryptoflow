@@ -1,16 +1,23 @@
 {
   "name": "cryptoflow",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/Maliot100X/cryptoflow",
+  "description": "CryptoFlow - A high-performance, cinematic crypto asset management landing page",
+  "author": "Maliot100X",
+  "license": "MIT",
+  "keywords": ["react", "vite", "tailwindcss", "crypto", "portfolio", "framer-motion"],
+  "homepage": "https://github.com/Maliot100X/cryptoflow#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/Maliot100X/cryptoflow.git"
   },
+  "bugs": {
+    "url": "https://github.com/Maliot100X/cryptoflow/issues"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -18,7 +25,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "framer-motion": "^12.23.24",
-    "lucide-react": "^0.487.0",
+    "lucide-react": "^0.500.0",
     "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
