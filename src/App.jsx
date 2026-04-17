@@ -502,7 +502,7 @@ function App() {
               </div>
             </div>
 
-            {/* Bottom Bar */}
+            {/* Bottom Bar Wrapper - NO BORDERS */}
             <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="text-sm text-zinc-600">
                 © 2026 CryptoFlow. All rights reserved.
